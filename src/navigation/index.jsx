@@ -12,6 +12,7 @@ import SceneGameHome from '../scenes/game/sceneGameHome'
 
 const Stack = createStackNavigator()
 
+
 const Navigation = ({ isUserLoggedIn }) => (
     <NavigationContainer ref={navigationRef}>
         <Stack.Navigator initialRouteName="Splash" screenOptions={{ headerShown: false }}>
