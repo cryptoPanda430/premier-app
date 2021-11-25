@@ -1,4 +1,9 @@
 {
   "name": "premierApp",
-  "displayName": "premierApp"
+  "displayName": "premierApp",
+  "splash": {
+    "image": "./assets/splash.png",
+    "resizeMode": "contain",
+    "backgroundColor": "#ffffff"
+  }
 }
